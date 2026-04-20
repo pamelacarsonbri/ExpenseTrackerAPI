@@ -52,7 +52,7 @@ def root():
     </head>
     <body>
       <h1>Personal Expense Tracker API</h1>
-      <p>Built with FastAPI, SQLAlchemy and MySQL · Tech4Girls Cohort 4</p>
+      <p>Built with FastAPI, SQLAlchemy and MySQL</p>
 
       <div class="card">
         <div class="label">Status</div>
@@ -76,8 +76,8 @@ def root():
 
       <div class="card">
         <div class="label">GitHub</div>
-        <a href="https://expensetrackerapi-1-x5ss.onrender.com/docs" target="_blank">
-          https://expensetrackerapi-1-x5ss.onrender.com/docs
+        <a href="https://github.com/pamelacarsonbri/ExpenseTrackerAPI" target="_blank">
+          https://github.com/pamelacarsonbri/ExpenseTrackerAPI
         </a>
       </div>
     </body>
