@@ -32,5 +32,9 @@ app.include_router(report_router)
 @app.get("/", tags=["Health"])
 def root():
     """Health check — confirms the API is running."""
-    return {"message": "Expense Tracker API is running. Visit http://127.0.0.1:8000/docs directly in your browser to explore all endpoints."}
-
+    return {
+    "message": "Expense Tracker API is running.",
+    "frontend": "https://pamelacarsonbri.github.io/expense-tracker-frontend/",
+    "docs": "https://expensetrackerapi-1-x5ss.onrender.com/docs",
+    "status": "online"
+}
